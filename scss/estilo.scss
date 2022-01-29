@@ -1,0 +1,30 @@
+$color-primario:red;
+
+
+header{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1{
+        color: $color-primario;
+    }
+    nav{
+        background-color: bisque;
+
+        li{
+            display: inline-block;
+            a{
+                text-decoration: none;
+                color:black;
+                font-weight: bold;
+                margin: 0px 15px 0px 15px;
+                text-transform: uppercase;
+                &:hover{
+                    background-color: white;
+                }
+            }
+        }
+    }
+}
